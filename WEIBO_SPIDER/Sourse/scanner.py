@@ -4,7 +4,7 @@ import re
 
 class tweet(object):
     content = ""
-    forward = 0
+    forward = 0 
 
     def __init__(self, content, forward):
         self.content = content
